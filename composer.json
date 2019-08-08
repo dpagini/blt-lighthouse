@@ -1,0 +1,18 @@
+{
+  "name": "dpagini/blt-lighthouse",
+  "description": "Google Lighthouse integration for Acquia BLT",
+  "license": "GPL-2.0+",
+  "authors":[
+    {
+      "name": "David Pagini",
+      "homepage": "https://github.com/dpagini",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Dpagini\\Lighthouse\\": "./src/"
+    }
+  }
+}
